@@ -1,0 +1,18 @@
+// Css of Why choose us section 
+.why-choose-sec{
+    background-image: url(../images/img_pad.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    
+}
+.why-choose-content-sec{
+    margin-top: -335px;
+    .choose-item{
+        @include common-text-style();
+        h2{
+            margin: 20px 0 16px 0;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@mixin common-text-style{
+    h2{
+        font-size: 46px;
+        font-family: ProximaNovaExBold;
+        color: $primary-color;
+        text-transform: uppercase;
+        line-height: 40px;
+        margin-bottom: 8px;
+    }
+    
+    p{
+        font-size: 22px;
+        font-family: ProximaNovaThinIt;
+        color: $color-gray;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+        
+    }
+}
+
+@mixin common-btn-style{
+    font-size: 14px;
+    font-family: ProximaNovaSemiBold;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 7px 20px;
+    background-color: #cb172d;
+    display: inline-block;
+    text-align: center !important;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}

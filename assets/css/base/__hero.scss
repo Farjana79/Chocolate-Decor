@@ -1,0 +1,125 @@
+// Hero section start from here
+.hero-sec{
+    background-image: url(../images/home.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    header{
+        background-color: $bg-color;
+        .logo{
+            width: 20%;
+            img{
+                width: 80%;
+            }
+        }
+        ul{
+            li{
+                a{
+                    font-size: 14px;
+                    font-family: PoppinsRegular; 
+                    color: $color-gray;
+                    padding: 20px 15px !important;
+                    display: inline-block;
+                    }   
+                }
+            }
+
+            .shop-icon{
+
+            }
+        }
+
+       
+    
+    .banner{
+
+        padding: 0;
+        form{
+            width: 65%;
+            .banner-search-form{
+                input{
+                    background-color: transparent;
+                    border-color: #fff;
+                    border-radius: 0 !important;
+                    color: #fff;
+                    text-transform: capitalize;
+                    &:focus{
+                        box-shadow: none;
+                    }
+                    &::placeholder{
+                        font-size: 14px;
+                        color: $color-gray !important;
+                    }
+                    
+                }
+                
+                label{
+                    right: 20px;
+                    top: 5px;
+                }
+            }
+        }
+        .banner-text{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            @include common-text-style();
+            h2{
+                font-size: 70px;
+                line-height: 58px;
+            }
+        }
+        .banner-btn{
+            margin-top: -15px;
+            @include common-btn-style();
+        }
+        .enough-img{
+            
+            margin-left: 20px;
+            margin-top: 0;
+        }
+    }
+   
+}
+
+
+
+// Free shipping start from here
+.free-shipping{
+    background-color: $bg-color2;
+    padding: 5px 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    .shipping-text-bg{    
+        font-family: ProximaNovaExRegIt;
+        font-size: 60px;
+        color: #6b664b;
+        margin-bottom: 0;
+        position: absolute;
+        right:-26%;
+        z-index: -1;
+        bottom: -8px;
+    }
+    .shipping-text{
+        h2{
+            font-family:ProximaNovaExRegIt ;
+            font-size: 45px;
+            color: $bg-color;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        
+        small{
+            font-family:ProximaNovaExLightIt ;
+            font-size: 25px;
+            
+            color: $color-white;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+
+//   Proxima Nova Font Family
+@font-face {
+    font-family:ProximaNovaExRegIt ;
+    src: url(../font/proximaNova/ProximaNovaExRegIt.otf);
+  }
+
+  @font-face {
+    font-family:ProximaNovaExLightIt ;
+    src: url(../font/proximaNova/ProximaNovaExLightIt.otf);
+  }
+  
+  @font-face {
+    font-family: ProximaNovaExBold;
+    src: url(../font/proximaNova/ProximaNovaExBold.otf); 
+
+  }
+
+  @font-face {
+    font-family: ProximaNovaThinIt ;
+    src: url(../font/proximaNova/ProximaNovaThinIt.otf);
+    
+  }
+
+  @font-face {
+    font-family: ProximaNovaSemiBold;   
+    src: url(../font/proximaNova/ProximaNovaSemiBold.otf);
+   
+  }
+
+
+//   Poppins Font family
+@font-face {
+    font-family: PoppinsBold;   
+    src: url(../font/poppins/Poppins-Bold.ttf);
+   
+  }
+  @font-face {
+    font-family: PoppinsMedium;   
+    src: url(../font/poppins/Poppins-Medium.ttf);
+   
+  }
+  @font-face {
+    font-family: PoppinsRegular;   
+    src: url(../font/poppins/Poppins-Regular.ttf);
+   
+  }
+  @font-face {
+    font-family: PoppinsSemiBold;   
+    src: url(../font/poppins/Poppins-SemiBold.ttf);
+   
+  }
+
+// Color variable
+$primary-color:#c7ba7c;
+$secondary-color:#496c63;
+$color-white:#fff;
+$color-danger:red;
+$color-gray: #e4e2dc;
+$bg-color:#0c0d07;
+$bg-color2 :#948d68;
+$bg-text :#6b664b;

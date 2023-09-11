@@ -1,0 +1,72 @@
+// Css of event section start from here
+.event-sec{
+    padding-bottom: 30px;
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        width: 2px;
+        background: $color-white;
+        top: 15%;
+        left: 50%;
+        height: 50%;
+    }
+    strong{
+        font-size: 22px;
+        font-family: ProximaNovaExBold;
+        line-height: 18px;
+    }
+    .corporate-gift{
+        background-image: url(../images/product-corporate.png);
+        background-position: bottom left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 570px;
+        
+    }
+    .event-installation {
+        background-image: url(../images/product-event.png);
+        background-position: bottom right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 570px;
+
+        .corporate-wrap{
+            margin-left: 70px;
+        }
+    }
+    .corporate-wrap{
+        height: 345px;
+    }
+    .event-common-text{
+        @include common-text-style();
+    }
+    .corporate-gift-content{
+        width: 50%;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .event-common-text{
+            h2{
+                color: $secondary-color;
+            }
+        }
+    }
+    .event-installation-content{
+        width: 60%;
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .shop-btn{
+        @include common-btn-style();
+    }
+    .get-touch-btn{
+        @include common-btn-style();
+        background-color: $primary-color;
+        color: #000;
+    }
+}
